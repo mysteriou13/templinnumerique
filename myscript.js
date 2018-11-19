@@ -11,6 +11,8 @@ var tabordi = [];
 //stockage  de la seqence proposé par l'utlisateur	
 var tabuti = [];	
 
+//recuperation de l'id du buttion cliké
+var id = i;	
 
 }
 

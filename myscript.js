@@ -3,6 +3,7 @@ function random(){
 
 var couleur =['blue','red','green','orange','yellow','purple','pink'];
 
+//nombre du niveau pour le diffulté	
 var niveau = 0;
 
 //stockage de la sequence proposé par le jeu	

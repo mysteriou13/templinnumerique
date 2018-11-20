@@ -1,6 +1,6 @@
 
 //fonction pour génére la sequence de touche aléoire //
-function random(i){
+function random(){
 
 var couleur =['blue','red','green','orange','yellow','purple','pink'];
 
@@ -11,7 +11,7 @@ var niveau = 3;
 var tabordi = [];
 
 //recuperation de l'id du buttion cliké
-var id = i;	
+
 
 var debut = 0;
 
@@ -24,32 +24,32 @@ var b2 = 6;
 //boucle qui genere la séquence alaétoire	
 while(debut <= niveau ){
 
-var nbrandom = Math.floor(Math.random() * 7) + 0);
+var nbrandom = Math.floor(Math.random() * 7) + 1;
 
-debut++;	
+debut++	
 
-id = document.getElementById(i);
+var id = document.getElementById(nbrandom);
 
-tabodi.push(nbrandom);
+tabordi.push(nbrandom);
 
 while(b1 <= b2){
 
 b1++;
+var id = document.getElementById(nbrandom); 
 
-if(nbrandow == id){
-	
-id.style.backgroundColor=couleur[i];	
+if(b1==nbrandom ){
 
-}else{
-
-id.style.backgroundColor = "";
-}	
+id.style.backgroundColor=couleur[nbrandom];	
 
 }
 
 }
 
- return taordi;
+
 
 }
+return tabordi;
+
+}
+
 

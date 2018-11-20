@@ -21,33 +21,22 @@ var b1 = -1;
 
 var b2 = 6;
 
+var nbrandom = Math.floor(Math.random() * 6);
+
+
 //boucle qui genere la séquence alaétoire	
 while(debut <= niveau ){
 
-var nbrandom = Math.floor(Math.random() * 7) + 1;
+ nbrandom = Math.floor(Math.random() * 6);
 
-debut++	
-
-var id = document.getElementById(nbrandom);
+debut++;
 
 tabordi.push(nbrandom);
 
-while(b1 <= b2){
-
-b1++;
-var id = document.getElementById(nbrandom); 
-
-if(b1==nbrandom ){
-
-id.style.backgroundColor=couleur[nbrandom];	
-
 }
 
-}
+debut  = -1;
 
-
-
-}
 return tabordi;
 
 }

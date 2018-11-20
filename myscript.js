@@ -5,7 +5,7 @@ function random(){
 var couleur =['blue','red','green','orange','yellow','purple','pink'];
 
 //nombre du niveau pour le diffulté	
-var niveau = 3;
+var niveau = 2;
 
 //stockage de la sequence proposé par le jeu	
 var tabordi = [];
@@ -16,7 +16,7 @@ var tabcouleur = [];
 //recuperation de l'id du buttion 
 var buttonid  = null;
 
-var debut = -1;
+var debut = 0;
 
 
 //boucle qui genere la séquence alaétoire	
@@ -30,18 +30,28 @@ tabordi.push(nbrandom);
 
 }
 
-debut = -1;
 
-while(debut <= niveau){
 
-debut++;
+return tabordi;
 
- buttonid  = document.getElementById(tabordi[debut]);
+}
+
+function affichage(tab,nb){
+
+var couleur =['blue','red','green','orange','yellow','purple','pink'];
+
+
+var buttonid  = document.getElementById(nb);
 
 buttonid.style.backgroundColor = couleur[buttonid.id];
 
 }
 
-}
+function clean(nb){
 
+var button =  document.getElementById(nb);
+
+button.style.backgroundColor = null;
+
+}
 

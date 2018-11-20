@@ -9,9 +9,26 @@
 	<title>
 	</title>	
 	</head>
-  <body onload  = "random()">	
-    <header>
-    </header>
+  <body onload  = "
+
+var a = random();
+
+setTimeout(function(){ affichage(a,a[0]) }, 1);
+
+setTimeout(function(){ clean(a[0]) }, 1000);
+
+setTimeout(function(){ affichage(a,a[1]) }, 1000);
+
+
+setTimeout(function(){ clean(a[1]) }, 1000);
+
+setTimeout(function(){ affichage(a,a[2]) }, 1000);
+
+
+
+">    
+<header>
+ </header>
 
               <article>
 

@@ -18,20 +18,11 @@ var tabcouleur = [];
 
 var debut = 0;
 
-var backcolor = null;
-
-var b1 = -1;
-
-var b2 = 6;
-
-var nbrandom = Math.floor(Math.random() * 6);
-
-
 
 //boucle qui genere la séquence alaétoire	
 while(debut <= niveau ){
 
- nbrandom = Math.floor(Math.random() * 6);
+nbrandom = Math.floor(Math.random() * 5);
 
 debut++;
 
@@ -39,9 +30,17 @@ tabordi.push(nbrandom);
 
 }
 
-debut  = -1;
+debut  = 0;
 
-return tabordi;
+while(debut <= niveau){
+
+debut++;
+
+tabcouleur.push(couleur[tabordi[debut]]);
+
+}
+
+
 
 }
 

@@ -13,16 +13,16 @@ var tabordi = [];
 //stockage des couleur
 var tabcouleur = [];
 
-//recuperation de l'id du buttion cliké
+//recuperation de l'id du buttion 
+var buttonid  = null;
 
-
-var debut = 0;
+var debut = -1;
 
 
 //boucle qui genere la séquence alaétoire	
 while(debut <= niveau ){
 
-nbrandom = Math.floor(Math.random() * 5);
+nbrandom = Math.floor(Math.random() * 7);
 
 debut++;
 
@@ -30,17 +30,17 @@ tabordi.push(nbrandom);
 
 }
 
-debut  = 0;
+debut = -1;
 
 while(debut <= niveau){
 
 debut++;
 
-tabcouleur.push(couleur[tabordi[debut]]);
+ buttonid  = document.getElementById(tabordi[debut]);
+
+buttonid.style.backgroundColor = couleur[buttonid.id];
 
 }
-
-
 
 }
 

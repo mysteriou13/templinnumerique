@@ -16,8 +16,11 @@ var tabuti = [];
 var id = i;	
 
 var backcolor = null;
-
+	
 id = document.getElementById(i);
+
+id.style.backgroundColor=couleur[i];	
+
 
 }
 

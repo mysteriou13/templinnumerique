@@ -9,24 +9,8 @@
 	<title>
 	</title>	
 	</head>
-  <body onload  = "
-
-var a = random();
-
-setTimeout(function(){ affichage(a,a[0]) }, 1);
-
-setTimeout(function(){ clean(a[0]) }, 1000);
-
-setTimeout(function(){ affichage(a,a[1]) }, 1000);
-
-
-setTimeout(function(){ clean(a[1]) }, 1000);
-
-setTimeout(function(){ affichage(a,a[2]) }, 1000);
-
-
-
-">    
+  <body>
+    
 <header>
  </header>
 
@@ -34,6 +18,13 @@ setTimeout(function(){ affichage(a,a[2]) }, 1000);
 
 <table>
 
+<script>
+var niv = 1;
+</script>
+
+<button onclick = "niveau(niv,random(niv))">
+commencer
+</button>
   <tr>
       <td>
 	      <button id = "0"  class = "b"> 

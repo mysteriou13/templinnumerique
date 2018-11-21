@@ -1,11 +1,11 @@
 
 //fonction pour génére la sequence de touche aléoire //
-function random(){
+function random(niv){
 
 var couleur =['blue','red','green','orange','yellow','purple','pink'];
 
 //nombre du niveau pour le diffulté	
-var niveau = 2;
+var niveau = niv;
 
 //stockage de la sequence proposé par le jeu	
 var tabordi = [];
@@ -44,6 +44,22 @@ var couleur =['blue','red','green','orange','yellow','purple','pink'];
 var buttonid  = document.getElementById(nb);
 
 buttonid.style.backgroundColor = couleur[buttonid.id];
+
+}
+
+function niveau(niv,a){
+
+
+if(niv ==1){
+setTimeout(function(){ affichage(a,a[0]) }, 1);
+
+setTimeout(function(){ clean(a[0]) }, 1000);
+
+setTimeout(function(){ affichage(a,a[1]) }, 1000);
+
+setTimeout(function(){ clean(a[1]) }, 1000);
+
+}
 
 }
 

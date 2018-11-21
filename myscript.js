@@ -74,7 +74,7 @@ button.style.backgroundColor = null;
 
 }
 
-function clickuser(niv,click){
+function clickuser(niv,click,id){
 
 
 }

@@ -73,4 +73,6 @@ var button =  document.getElementById(nb);
 button.style.backgroundColor = null;
 
 }
+function clickuser(){
 
+}

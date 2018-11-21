@@ -50,7 +50,7 @@ buttonid.style.backgroundColor = couleur[buttonid.id];
 function niveau(niv,a){
 
 
-if(niv ==1){
+if(niv ==0){
 setTimeout(function(){ affichage(a,a[0]) }, 1);
 
 setTimeout(function(){ clean(a[0]) }, 1000);

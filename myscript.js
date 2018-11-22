@@ -80,9 +80,16 @@ button.style.backgroundColor = null;
 }
 
 function clickuser(nbclick,click,id,niv){
+var n = niv+1;
+var div = document.getElementById("nbniveau");
+var divtext = div.innerHTML;
 
-if(id == click){
-	
+if(id == click[divtext]){
+div.innerHTML= null;
+
+div.innerHTML = nbclick+1;
+
 }
+
 
 }

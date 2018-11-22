@@ -102,6 +102,9 @@ alert("winner");
 
 }
 
+}else{
+alert("lose");
+
 }
 
  }

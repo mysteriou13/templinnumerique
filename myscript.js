@@ -40,10 +40,13 @@ function affichage(tab,nb){
 
 var couleur =['blue','red','green','orange','yellow','purple','pink'];
 
+if(nb != null){
 
 var buttonid  = document.getElementById(nb);
 
 buttonid.style.backgroundColor = couleur[buttonid.id];
+
+}
 
 }
 
@@ -68,9 +71,11 @@ setTimeout(function(){ clean(a[1]) }, 1000);
 
 function clean(nb){
 
+if(nb != null){
 var button =  document.getElementById(nb);
 
 button.style.backgroundColor = null;
+}
 
 }
 

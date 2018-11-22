@@ -18,8 +18,9 @@ var buttonid  = null;
 
 var debut = 0;
 
-
 //boucle qui genere la séquence alaétoire	
+
+
 while(debut <= niveau ){
 
 nbrandom = Math.floor(Math.random() * 7);
@@ -81,15 +82,21 @@ button.style.backgroundColor = null;
 
 function clickuser(nbclick,click,id,niv){
 var n = niv+1;
-var div = document.getElementById("nbniveau");
+var lentab = click.length;
+var div = document.getElementById("nbclick");
 var divtext = div.innerHTML;
 
 if(id == click[divtext]){
+
 div.innerHTML= null;
 
 div.innerHTML = nbclick+1;
 
+if(nbclick+1 == lentab){
+alert("winner");
+
 }
 
-
 }
+
+ }

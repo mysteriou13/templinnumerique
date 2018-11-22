@@ -10,6 +10,7 @@
 	</title>	
 	</head>
   <body>
+
     
 <header>
  </header>
@@ -17,12 +18,13 @@
               <article>
 
 <table>
-	<div id = "nbniveau">0</div>	
+	<div id = "nbclick">0</div>	
 
 <script>
-var niv = document.getElementById("nbniveau").innerHTML;
+var niv = document.getElementById("nbclick").innerHTML;
 var nbclick = 0;
 var rar = random(niv);
+var nbrar = rar.length;
 
 
 </script>
@@ -39,28 +41,27 @@ commencer
 </div>
   <tr>
       <td>
-	      <button id = "0"  class = "b" onclick = "clickuser(nbclick++,rar[0],this.id,niv)"> 
-
+	      <button id = "0"  class = "b" onclick = "clickuser(nbclick,rar,this.id,niv)">
       </button>
       </td>
   
       <td>
-      <button id = "1"   class = "b"    onclick = "clickuser(nbclick++,rar,this.id,niv)"> 
+      <button id = "1"   class = "b"    onclick = "clickuser(nbclick,rar,this.id,niv)"> 
       </button>
       </td>
  
       <td>
-      <button id = "2"   class = "b" onclick = "clickuser(nbclick++,rar,this.id,niv)"> 
+      <button id = "2"   class = "b" onclick = "clickuser(nbclick,rar,this.id,niv)"> 
       </button>
       </td>
 
       <td>
-      <button id = "3"   class = "b"   onclick = "clickuser(nbclick++,rar,this.id,niv)"> 
+      <button id = "3"   class = "b"   onclick = "clickuser(nbclick,rar,this.id,niv)"> 
       </button>
       </td>
 
       <td>
-      <button id = "4"    class = "b"   onclick = "clickuser(nbclick++,rar,this.id,niv)"> 
+      <button id = "4"    class = "b"   onclick = "clickuser(nbclick,rar,this.id,niv)"> 
       </button>
       </td>
 

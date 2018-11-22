@@ -65,8 +65,7 @@ setTimeout(function(){ clean(a[1]) }, 1000);
 
 }
 
- document.getElementById("niv").style.display = "block";
- document.getElementById("niv").value = "valider";
+
 
 }
 

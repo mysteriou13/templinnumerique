@@ -80,20 +80,25 @@ button.style.backgroundColor = null;
 
 }
 
-function clickuser(nbclick,click,id,niv){
+function clickuser(nbclick,click,id,niv,nbniv){
 var n = niv+1;
 var lentab = click.length;
 var div = document.getElementById("nbclick");
 var nbniveau = document.getElementById("nbniveau");	
 var divtext = div.innerHTML;
-
+	
 if(id == click[divtext]){
 
 div.innerHTML= null;
 
-div.innerHTML = nbclick+1;
+div.innerHTML = nbniveau+1;
 
 if(nbclick+1 == lentab){
+
+nbniveau.innerHTML= null;
+
+nbniveau.innerHTML =nbniveau.innerHTML+1;
+
 alert("winner");
 
 }

@@ -87,7 +87,7 @@ var lentab = click.length;
 var div = document.getElementById("nbclick");
 var nbniveau = document.getElementById("nbniveau");	
 var divtext = div.innerHTML;
-	
+var bniveau =  document.getElementById("bniveau");	
 if(id == click[divtext]){
 
 div.innerHTML= null;

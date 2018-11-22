@@ -103,7 +103,10 @@ alert("winner");
 }
 
 }else{
+
 alert("lose");
+
+document.location = "./index.html";
 
 }
 

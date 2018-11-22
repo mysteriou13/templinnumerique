@@ -53,6 +53,8 @@ buttonid.style.backgroundColor = couleur[buttonid.id];
 
 function niveau(niv,a){
 
+var niv = document.getElementById("nbniveau").innerHTML;
+
 
 if(niv ==0){
 setTimeout(function(){ affichage(a,a[0]) }, 1);

@@ -81,5 +81,8 @@ button.style.backgroundColor = null;
 
 function clickuser(nbclick,click,id,niv){
 
+if(id == click){
+	
+}
 
 }

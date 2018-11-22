@@ -84,6 +84,7 @@ function clickuser(nbclick,click,id,niv){
 var n = niv+1;
 var lentab = click.length;
 var div = document.getElementById("nbclick");
+var nbniveau = document.getElementById("nbniveau");	
 var divtext = div.innerHTML;
 
 if(id == click[divtext]){

@@ -22,10 +22,9 @@ var debut = 0;
 
 
 while(debut <= niveau ){
-
+debut++;
 nbrandom = Math.floor(Math.random() * 7);
 
-debut++;
 
 tabordi.push(nbrandom);
 
@@ -52,43 +51,55 @@ buttonid.style.backgroundColor = couleur[buttonid.id];
 }
 
 function niveau(niv,a){
-var n = -1;
 
-while(n != niv){
-n++;
- 
-
-setTimeout(function(){affichage(a,a[n++]);}, 1000);
-
-setTimeout(function(){clean(a);}, 1); 
+if(niv == 0){
+setTimeout(function(){affichage(a,a[0]);}, 1);
 
 
+setTimeout(function(){clean(a[0]);}, 1000); 
+}
+
+if(niv == 1){
+
+setTimeout(function(){affichage(a,a[0]);}, 1);
+
+setTimeout(function(){clean(a[0]);}, 1000); 
+
+setTimeout(function(){affichage(a,a[1]);}, 2000);
+
+setTimeout(function(){clean(a[1]);}, 2500); 
+
+}
 
 }
 
 
-}
-
-function clean(tab){
+function clean(n){
 var c = 0;
 var debut = 0;
 var fin = 6;	
 
-alert(tab[0]);
-
-document.getElementById(tab[0]).style.backgroundColor = null;
+document.getElementById(n).style.backgroundColor = null;
 
 }
 
-function clickuser(nbclick,click,id,niv,nbniv){
+function clickuser(nb,tab,id,niv,nbniv){
 
-var nbniveau = document.getElementById("nbniveau");
+var click = document.getElementById("nombreclick");
 
-nbniveau.innerHTML = nbniv; 
+if(tab[nb] == id){
+
+click=nb; 
+
+alert("winner");
+
+}
 
 
+if(tab.length == nb){
 
+click= 0;
 
+}
 
-
- }
+}

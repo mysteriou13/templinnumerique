@@ -52,64 +52,43 @@ buttonid.style.backgroundColor = couleur[buttonid.id];
 }
 
 function niveau(niv,a){
+var n = -1;
 
-var niv = document.getElementById("nbniveau").innerHTML;
+while(n != niv){
+n++;
+ 
 
+setTimeout(function(){affichage(a,a[n++]);}, 1000);
 
-if(niv ==0){
-setTimeout(function(){ affichage(a,a[0]) }, 1);
-
-setTimeout(function(){ clean(a[0]) }, 1000);
-
-setTimeout(function(){ affichage(a,a[1]) }, 1000);
-
-setTimeout(function(){ clean(a[1]) }, 1000);
-
-}
+setTimeout(function(){clean(a);}, 1); 
 
 
 
 }
 
-function clean(nb){
 
-if(nb != null){
-var button =  document.getElementById(nb);
-
-button.style.backgroundColor = null;
 }
+
+function clean(tab){
+var c = 0;
+var debut = 0;
+var fin = 6;	
+
+alert(tab[0]);
+
+document.getElementById(tab[0]).style.backgroundColor = null;
 
 }
 
 function clickuser(nbclick,click,id,niv,nbniv){
-var n = niv+1;
-var lentab = click.length;
-var div = document.getElementById("nbclick");
-var nbniveau = document.getElementById("nbniveau");	
-var divtext = div.innerHTML;
 
-if(id == click[divtext]){
+var nbniveau = document.getElementById("nbniveau");
 
-div.innerHTML= null;
+nbniveau.innerHTML = nbniv; 
 
-div.innerHTML = nbniveau+1;
 
-if(nbclick+1 == lentab){
 
-nbniveau.innerHTML= null;
 
-nbniveau.innerHTML =nbniveau.innerHTML+1;
 
-alert("winner");
-
-}
-
-}else{
-
-alert("lose");
-
-document.location = "./index.html";
-
-}
 
  }

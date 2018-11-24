@@ -36,8 +36,8 @@ return tabordi;
 }
 
 
-
-function affichage(tab,nb){
+//affichage  de la couleur de font des button
+function affichage(nb){
 
 var couleur =['blue','red','green','orange','yellow','purple','pink'];
 
@@ -55,7 +55,7 @@ function niveau(niv,a){
 
 
 if(niv == 0){
-setTimeout(function(){affichage(a,a[0]);}, 1);
+setTimeout(function(){affichage(a[0]);}, 1);
 
 
 setTimeout(function(){clean(a[0]);}, 1000); 
@@ -63,11 +63,11 @@ setTimeout(function(){clean(a[0]);}, 1000);
 
 if(niv == 1){
 
-setTimeout(function(){affichage(a,a[0]);}, 1);
+setTimeout(function(){affichage(a[0]);}, 1);
 
 setTimeout(function(){clean(a[0]);}, 1000); 
 
-setTimeout(function(){affichage(a,a[1]);}, 2000);
+setTimeout(function(){affichage(a[1]);}, 2000);
 
 setTimeout(function(){clean(a[1]);}, 2500); 
 

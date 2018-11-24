@@ -82,12 +82,13 @@ document.getElementById(n).style.backgroundColor = null;
 
 }
 
+//fonction qui se lance quand click sur les button
 function clickuser(tab,id){
 
 var nbclick = document.getElementById("nombreclick");
 var nblevel= document.getElementById("nblevel");
 
-
+//verifi que les button sont click dans le bon ordre
 if(tab[nbclick.value] == id){
 
  nbclick.value++;

@@ -78,10 +78,6 @@ setTimeout(function(){clean(a[1]);}, 2500);
 
 
 function clean(n){
-var c = 0;
-var debut = 0;
-var fin = 6;	
-
 document.getElementById(n).style.backgroundColor = null;
 
 }

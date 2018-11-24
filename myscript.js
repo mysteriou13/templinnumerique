@@ -76,7 +76,7 @@ setTimeout(function(){clean(a[1]);}, 2500);
 
 }
 
-
+//effacement des couleur de fond des button
 function clean(n){
 document.getElementById(n).style.backgroundColor = null;
 

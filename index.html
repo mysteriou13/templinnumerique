@@ -19,12 +19,16 @@
 
 <table>
 
-<div id = "nombreclick">0</div>
+<input type ="button" id = "nblevel" value = 0>
+
+<input type ="button" id = "nombreclick" value =0>
+
+
 
 <script>
-var niv = 0;
+var niv = document.getElementById("nblevel");
 var nbniveau = 0;
-var nbclick = document.getElementById("nombreclick").innerHTML;
+var nbclick = document.getElementById("nombreclick");
 var  click = 0;
 var rar = random(25);
 
@@ -38,43 +42,43 @@ var nbrar = rar.length;
 
 </div>	
 
-<button id = "bniveau"  onclick = "niveau(niv++,rar)">
+<button id = "bniveau"  onclick = "niveau(niv.value++,rar)">
 commencer
 </button>
 </div>
   <tr>
       <td>
-	      <button id = "0"  class = "b" onclick = "clickuser(nbclick++,rar,this.id,niv,nbniveau++)">
+	      <button id = "0"  class = "b" onclick = "clickuser(nbclick,rar,this.id,niv,nbniveau)">
       </button>
       </td>
   
       <td>
-      <button id = "1"   class = "b"    onclick = "clickuser(nbclick++,rar,this.id,niv,nbniveau++)"> 
+      <button id = "1"   class = "b"    onclick = "clickuser(nbclick,rar,this.id,niv,nbniveau)"> 
       </button>
       </td>
  
       <td>
-      <button id = "2"   class = "b" onclick = "clickuser(nbclick++,rar,this.id,niv,nbniveau++)"> 
+      <button id = "2"   class = "b" onclick = "clickuser(nbclick,rar,this.id,niv,nbniveau)"> 
       </button>
       </td>
 
       <td>
-      <button id = "3"   class = "b"   onclick = "clickuser(nbclick++,rar,this.id,niv,nbniveau++)"> 
+      <button id = "3"   class = "b"   onclick = "clickuser(nbclick,rar,this.id,niv,nbniveau)"> 
       </button>
       </td>
 
       <td>
-      <button id = "4"    class = "b"   onclick = "clickuser(nbclick++,rar,this.id,niv,nbniveau++)"> 
+      <button id = "4"    class = "b"   onclick = "clickuser(nbclick,rar,this.id,niv,nbniveau)"> 
       </button>
       </td>
 
       <td>
-      <button id = "5"    class ="b"   onclick = "clickuser(nbclick++,rar,this.id,niv,nbniveau++)"> 
+      <button id = "5"    class ="b"   onclick = "clickuser(nbclick,rar,this.id,niv,nbniveau)"> 
       </button>
       </td>
 
       <td>
-      <button id = "6"     class ="b"   onclick = "clickuser(nbclick++,rar,this.id,niv,nbniveau++)"> 
+      <button id = "6"     class ="b"   onclick = "clickuser(nbclick,rar,this.id,niv,nbniveau)"> 
       </button>
       </td>
 

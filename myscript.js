@@ -52,6 +52,7 @@ buttonid.style.backgroundColor = couleur[buttonid.id];
 
 function niveau(niv,a){
 
+
 if(niv == 0){
 setTimeout(function(){affichage(a,a[0]);}, 1);
 
@@ -85,20 +86,20 @@ document.getElementById(n).style.backgroundColor = null;
 
 function clickuser(nb,tab,id,niv,nbniv){
 
-var click = document.getElementById("nombreclick");
+var nbclick = document.getElementById("nombreclick");
+var nblevel= document.getElementById("nblevel");
 
-if(tab[nb] == id){
 
-click=nb; 
+if(tab[nbclick.value] == id){
 
-alert("winner");
+ nbclick.value++;
 
 }
 
 
-if(tab.length == nb){
-
-click= 0;
+if(nbclick.value == nblevel.value){
+alert("winner");
+nbclick.value = 0;
 
 }
 

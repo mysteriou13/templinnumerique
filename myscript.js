@@ -1,11 +1,10 @@
 
 //fonction pour génére la sequence de touche aléoire //
 function random(niv){
-
+//tableau de couleur de font a apliqué sur les buttons
 var couleur =['blue','red','green','orange','yellow','purple','pink'];
 
 //nombre du niveau pour le diffulté	
-var niveau = niv;
 
 //stockage de la sequence proposé par le jeu	
 var tabordi = [];
@@ -13,28 +12,30 @@ var tabordi = [];
 //stockage des couleur
 var tabcouleur = [];
 
-//recuperation de l'id du buttion 
-var buttonid  = null;
+//stockage des nombres génére alétoirement
+var nbrandom = null;
+
 
 var debut = 0;
 
-//boucle qui genere la séquence alaétoire	
+//boucle qui genere la séquence alétoire	
 
-
-while(debut <= niveau ){
+while(debut <= niv ){
 debut++;
-nbrandom = Math.floor(Math.random() * 7);
+//generation d'un nombre alétoire entre 0 et 7
+ nbrandom = Math.floor(Math.random() * 7);
 
-
+//stockage du nombre alétoire dans  le tableau
 tabordi.push(nbrandom);
 
 }
 
-
-
+//revoie la sequence alétoire
 return tabordi;
 
 }
+
+
 
 function affichage(tab,nb){
 

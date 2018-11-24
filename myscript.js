@@ -51,6 +51,7 @@ buttonid.style.backgroundColor = couleur[buttonid.id];
 
 }
 
+//gestion des niveaux
 function niveau(niv,a){
 
 

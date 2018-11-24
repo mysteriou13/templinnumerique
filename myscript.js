@@ -84,7 +84,7 @@ document.getElementById(n).style.backgroundColor = null;
 
 }
 
-function clickuser(nb,tab,id,niv,nbniv){
+function clickuser(tab,id){
 
 var nbclick = document.getElementById("nombreclick");
 var nblevel= document.getElementById("nblevel");

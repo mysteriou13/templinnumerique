@@ -396,6 +396,7 @@ function clickuser(tab,id){
 
 var nbclick = document.getElementById("nombreclick");
 var buttonniv = document.getElementById("bniveau");
+var level = document.getElementById("nblevel");
 
 
 //verifi que les button sont click dans le bon ordre
@@ -413,6 +414,9 @@ document.location ="./index.html";
 
 
 if(nbclick.value == nblevel.value){
+
+buttonniv.innerHTML = null;
+buttonniv.innerHTML = "niveau"+level.value++;
 alert("winner");
 nbclick.value = 0;
 

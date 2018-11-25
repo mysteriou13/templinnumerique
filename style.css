@@ -9,6 +9,11 @@ border:1px solid black;
 
 }
 
+table{
+
+padding:2%;
+
+}
 #nblevel{
 display:none;
 }

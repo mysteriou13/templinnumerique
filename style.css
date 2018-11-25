@@ -4,8 +4,10 @@ width:90px;
 
 }
 
+article{
+border:1px solid black;
 
-
+}
 
 #nblevel{
 display:none;

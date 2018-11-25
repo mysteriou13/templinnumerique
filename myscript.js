@@ -83,6 +83,305 @@ setTimeout(function(){clean(a[1]);}, 2500);
 
 }
 
+if(niv == 2){
+
+setTimeout(function(){affichage(a[0]);}, 1);
+
+setTimeout(function(){clean(a[0]);}, 1000); 
+
+setTimeout(function(){affichage(a[1]);}, 2000);
+
+setTimeout(function(){clean(a[1]);}, 2500); 
+
+setTimeout(function(){affichage(a[2]);}, 2500);
+
+setTimeout(function(){clean(a[2]);}, 3000); 
+
+
+}
+
+
+if(niv == 3){
+
+setTimeout(function(){affichage(a[0]);}, 1);
+
+setTimeout(function(){clean(a[0]);}, 1000); 
+
+setTimeout(function(){affichage(a[1]);}, 2000);
+
+setTimeout(function(){clean(a[1]);}, 2500); 
+
+setTimeout(function(){affichage(a[2]);}, 2500);
+
+setTimeout(function(){clean(a[2]);}, 3000); 
+
+setTimeout(function(){affichage(a[3]);}, 3500);
+
+setTimeout(function(){clean(a[3]);}, 4000); 
+
+
+}
+
+
+if(niv == 3){
+
+setTimeout(function(){affichage(a[0]);}, 1);
+
+setTimeout(function(){clean(a[0]);}, 1000); 
+
+setTimeout(function(){affichage(a[1]);}, 2000);
+
+setTimeout(function(){clean(a[1]);}, 2500); 
+
+setTimeout(function(){affichage(a[2]);}, 2500);
+
+setTimeout(function(){clean(a[2]);}, 3000); 
+
+setTimeout(function(){affichage(a[3]);}, 3500);
+
+setTimeout(function(){clean(a[3]);}, 4000); 
+
+setTimeout(function(){affichage(a[4]);}, 4500);
+
+setTimeout(function(){clean(a[4]);}, 5000); 
+
+
+}
+
+if(niv == 5){
+
+setTimeout(function(){affichage(a[0]);}, 1);
+
+setTimeout(function(){clean(a[0]);}, 1000); 
+
+setTimeout(function(){affichage(a[1]);}, 2000);
+
+setTimeout(function(){clean(a[1]);}, 2500); 
+
+setTimeout(function(){affichage(a[2]);}, 2500);
+
+setTimeout(function(){clean(a[2]);}, 3000); 
+
+setTimeout(function(){affichage(a[3]);}, 3500);
+
+setTimeout(function(){clean(a[3]);}, 4000); 
+
+setTimeout(function(){affichage(a[4]);}, 4000);
+
+setTimeout(function(){clean(a[4]);}, 4500); 
+
+setTimeout(function(){affichage(a[5]);}, 5000);
+
+setTimeout(function(){clean(a[5]);}, 5500); 
+
+
+}
+
+
+if(niv == 6){
+
+setTimeout(function(){affichage(a[0]);}, 1);
+
+setTimeout(function(){clean(a[0]);}, 1000); 
+
+setTimeout(function(){affichage(a[1]);}, 2000);
+
+setTimeout(function(){clean(a[1]);}, 2500); 
+
+setTimeout(function(){affichage(a[2]);}, 2500);
+
+setTimeout(function(){clean(a[2]);}, 3000); 
+
+setTimeout(function(){affichage(a[3]);}, 3500);
+
+setTimeout(function(){clean(a[3]);}, 4000); 
+
+setTimeout(function(){affichage(a[4]);}, 4000);
+
+setTimeout(function(){clean(a[4]);}, 4500); 
+
+setTimeout(function(){affichage(a[5]);}, 4500);
+
+setTimeout(function(){clean(a[5]);}, 5000); 
+
+setTimeout(function(){affichage(a[6]);}, 5500);
+
+setTimeout(function(){clean(a[6]);}, 6000); 
+
+}
+
+if(niv == 7){
+
+setTimeout(function(){affichage(a[0]);}, 1);
+
+setTimeout(function(){clean(a[0]);}, 1000); 
+
+setTimeout(function(){affichage(a[1]);}, 2000);
+
+setTimeout(function(){clean(a[1]);}, 2500); 
+
+setTimeout(function(){affichage(a[2]);}, 2500);
+
+setTimeout(function(){clean(a[2]);}, 3000); 
+
+setTimeout(function(){affichage(a[3]);}, 3500);
+
+setTimeout(function(){clean(a[3]);}, 4000); 
+
+setTimeout(function(){affichage(a[4]);}, 4000);
+
+setTimeout(function(){clean(a[4]);}, 4500); 
+
+setTimeout(function(){affichage(a[5]);}, 4500);
+
+setTimeout(function(){clean(a[5]);}, 5000); 
+
+setTimeout(function(){affichage(a[6]);}, 5500);
+
+setTimeout(function(){clean(a[6]);}, 6000); 
+
+setTimeout(function(){affichage(a[7]);}, 7000);
+
+setTimeout(function(){clean(a[7]);}, 7500); 
+
+
+}
+
+if(niv == 8){
+
+setTimeout(function(){affichage(a[0]);}, 1);
+
+setTimeout(function(){clean(a[0]);}, 1000); 
+
+setTimeout(function(){affichage(a[1]);}, 2000);
+
+setTimeout(function(){clean(a[1]);}, 2500); 
+
+setTimeout(function(){affichage(a[2]);}, 2500);
+
+setTimeout(function(){clean(a[2]);}, 3000); 
+
+setTimeout(function(){affichage(a[3]);}, 3500);
+
+setTimeout(function(){clean(a[3]);}, 4000); 
+
+setTimeout(function(){affichage(a[4]);}, 4000);
+
+setTimeout(function(){clean(a[4]);}, 4500); 
+
+setTimeout(function(){affichage(a[5]);}, 4500);
+
+setTimeout(function(){clean(a[5]);}, 5000); 
+
+setTimeout(function(){affichage(a[6]);}, 5500);
+
+setTimeout(function(){clean(a[6]);}, 6000); 
+
+setTimeout(function(){affichage(a[7]);}, 7000);
+
+setTimeout(function(){clean(a[7]);}, 7500); 
+
+setTimeout(function(){affichage(a[8]);}, 8000);
+
+setTimeout(function(){clean(a[8]);}, 8500); 
+
+
+}
+
+if(niv == 9){
+
+setTimeout(function(){affichage(a[0]);}, 1);
+
+setTimeout(function(){clean(a[0]);}, 1000); 
+
+setTimeout(function(){affichage(a[1]);}, 2000);
+
+setTimeout(function(){clean(a[1]);}, 2500); 
+
+setTimeout(function(){affichage(a[2]);}, 2500);
+
+setTimeout(function(){clean(a[2]);}, 3000); 
+
+setTimeout(function(){affichage(a[3]);}, 3500);
+
+setTimeout(function(){clean(a[3]);}, 4000); 
+
+setTimeout(function(){affichage(a[4]);}, 4000);
+
+setTimeout(function(){clean(a[4]);}, 4500); 
+
+setTimeout(function(){affichage(a[5]);}, 4500);
+
+setTimeout(function(){clean(a[5]);}, 5000); 
+
+setTimeout(function(){affichage(a[6]);}, 5500);
+
+setTimeout(function(){clean(a[6]);}, 6000); 
+
+setTimeout(function(){affichage(a[7]);}, 7000);
+
+setTimeout(function(){clean(a[7]);}, 7500); 
+
+setTimeout(function(){affichage(a[8]);}, 8000);
+
+setTimeout(function(){clean(a[8]);}, 8500); 
+
+setTimeout(function(){affichage(a[9]);}, 9000);
+
+setTimeout(function(){clean(a[9]);}, 9500); 
+
+
+}
+
+if(niv == 10){
+
+setTimeout(function(){affichage(a[0]);}, 1);
+
+setTimeout(function(){clean(a[0]);}, 1000); 
+
+setTimeout(function(){affichage(a[1]);}, 2000);
+
+setTimeout(function(){clean(a[1]);}, 2500); 
+
+setTimeout(function(){affichage(a[2]);}, 2500);
+
+setTimeout(function(){clean(a[2]);}, 3000); 
+
+setTimeout(function(){affichage(a[3]);}, 3500);
+
+setTimeout(function(){clean(a[3]);}, 4000); 
+
+setTimeout(function(){affichage(a[4]);}, 4000);
+
+setTimeout(function(){clean(a[4]);}, 4500); 
+
+setTimeout(function(){affichage(a[5]);}, 4500);
+
+setTimeout(function(){clean(a[5]);}, 5000); 
+
+setTimeout(function(){affichage(a[6]);}, 5500);
+
+setTimeout(function(){clean(a[6]);}, 6000); 
+
+setTimeout(function(){affichage(a[7]);}, 7000);
+
+setTimeout(function(){clean(a[7]);}, 7500); 
+
+setTimeout(function(){affichage(a[8]);}, 8000);
+
+setTimeout(function(){clean(a[8]);}, 8500); 
+
+setTimeout(function(){affichage(a[9]);}, 9000);
+
+setTimeout(function(){clean(a[9]);}, 9500); 
+
+setTimeout(function(){affichage(a[1O]);}, 10000);
+
+setTimeout(function(){clean(a[1O]);}, 10500); 
+
+}
+
+
 }
 
 //effacement des couleur de fond des button

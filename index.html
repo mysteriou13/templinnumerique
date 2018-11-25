@@ -26,15 +26,13 @@
 
 
 <script>
-var nbniveau = document.getElementById("nblevel");
-var nbclick = document.getElementById("nombreclick");
 var rar = random(25);
 var nbrar = rar.length;
 </script>
 
 <div>
 
-<button id = "bniveau"  onclick = "niveau(nbniveau,rar)">
+<button id = "bniveau"  onclick = "niveau(nbniveau(document.getElementById('nblevel')),rar)">
 commencer
 </button>
 </div>

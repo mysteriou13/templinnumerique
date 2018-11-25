@@ -1,4 +1,12 @@
 
+//fonction qui retounre le nombre de niveau
+
+function  nbniveau(niveau){
+
+return niveau.value++;
+
+}
+
 //fonction pour génére la sequence de touche aléoire //
 function random(niv){
 //tableau de couleur de font a apliqué sur les buttons

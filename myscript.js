@@ -54,6 +54,7 @@ buttonid.style.backgroundColor = couleur[buttonid.id];
 //gestion des niveaux
 function niveau(niv,a){
 
+niv.value++;
 
 if(niv == 0){
 setTimeout(function(){affichage(a[0]);}, 1);

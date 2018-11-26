@@ -20,13 +20,6 @@ jeu du  super simon
 </header>
 
               <article >
-<div>
- <center id = "partie">
-
- </center>
-</div>
-
-<div>
 <center>
 
 <input type ="button" id = "nblevel" value = 0>
@@ -40,28 +33,29 @@ var rar = random(10);
 
 <table>
   <tr>
-  <td>
-  <button id = "bniveau"  onclick = "niveau(nbniveau(document.getElementById('nblevel')),rar)">
-  niveau 0
-  </button>
-  </td>
-  <tr>
-      <td>
-	      <button id = "0"  class = "b" onclick = "clickuser(rar,this.id)">
+ <td>
+   <button id = "bniveau"  onclick = "niveau(nbniveau(document.getElementById('nblevel')),rar)">
+   niveau 0
+   </button>
+   </td>
+   </tr>
+     <tr>
+       <td>
+     <button id = "0"  class = "b" onclick = "clickuser(rar,this.id)">
      0  
-    </button>
-      </td>
+     </button>
+     </td>
   
       <td>
       <button id = "1"   class = "b"    onclick = "clickuser(rar,this.id)"> 
-     1
-     </button>
+       1
+      </button>
       </td>
  
       <td>
       <button id = "2"   class = "b" onclick = "clickuser(rar,this.id)"> 
-     2 
-     </button>
+      2 
+      </button>
       </td>
 
       <td>
@@ -72,7 +66,7 @@ var rar = random(10);
 
       <td>
       <button id = "4"    class = "b"   onclick = "clickuser(rar,this.id)"> 
-     4
+       4
       </button>
       </td>
 
@@ -86,16 +80,21 @@ var rar = random(10);
       <button id = "6"     class ="b"   onclick = "clickuser(rar,this.id)"> 
       6
       </button>
-      </td>
-  </tr>
+       </td>
+      </tr>
 
 </table>
-</center>
-</div>
 
+ <div>
+ <center id = "partie">
+
+ </center>
+ </div>
+ 
+ </center>
  </article>
    
     <footer>
     </footer>
-  </body>
+</body>
 </html>

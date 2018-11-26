@@ -8,6 +8,10 @@ body{
 background-color:silver;
 }
 
+#partie{
+Verdana, sans-serif;
+font-size:15pt;
+}
 
 #nblevel{
 display:none;

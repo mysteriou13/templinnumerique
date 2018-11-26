@@ -62,7 +62,6 @@ buttonid.style.backgroundColor = couleur[buttonid.id];
 //gestion des niveaux
 function niveau(niv,a){
 
-niv.value++;
 
 if(niv == 0){
 setTimeout(function(){affichage(a[0]);}, 1);
@@ -405,19 +404,17 @@ if(tab[nbclick.value] == id){
  nbclick.value++;
 
 }else{
-
 alert("lose");
-
 document.location ="./index.html";
 
 }
 
 
 if(nbclick.value ==  level.value){
-
+level.value = level.value++;
 buttonniv.innerHTML = null;
 buttonniv.innerHTML = "niveau"+level.value;
-alert("winner");
+partie.innerHTML = "winner";
 nbclick.value = 0;
 
 }

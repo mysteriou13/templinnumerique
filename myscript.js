@@ -413,7 +413,7 @@ document.location ="./index.html";
 }
 
 
-if(nbclick.value == nblevel.value){
+if(nbclick.value ==  level.value){
 
 buttonniv.innerHTML = null;
 buttonniv.innerHTML = "niveau"+level.value++;

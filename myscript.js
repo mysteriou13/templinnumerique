@@ -61,7 +61,8 @@ buttonid.style.backgroundColor = couleur[buttonid.id];
 
 //gestion des niveaux
 function niveau(niv,a){
-
+var partie = document.getElementById("partie");
+partie.innerHTML = null;
 
 if(niv == 0){
 setTimeout(function(){affichage(a[0]);}, 1);

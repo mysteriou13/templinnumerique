@@ -416,7 +416,7 @@ document.location ="./index.html";
 if(nbclick.value ==  level.value){
 
 buttonniv.innerHTML = null;
-buttonniv.innerHTML = "niveau"+level.value++;
+buttonniv.innerHTML = "niveau"+level.value;
 alert("winner");
 nbclick.value = 0;
 

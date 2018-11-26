@@ -397,7 +397,7 @@ function clickuser(tab,id){
 var nbclick = document.getElementById("nombreclick");
 var buttonniv = document.getElementById("bniveau");
 var level = document.getElementById("nblevel");
-
+var partie = document.getElementById("partie");
 
 //verifi que les button sont click dans le bon ordre
 if(tab[nbclick.value] == id){

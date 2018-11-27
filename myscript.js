@@ -15,8 +15,6 @@ function random(niv){
 
 var couleur =['blue','red','green','orange','yellow','purple','pink'];
 
-//nombre du niveau pour le diffulté	
-
 //stockage de la sequence proposé par le jeu	
 
 var tabordi = [];

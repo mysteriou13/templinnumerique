@@ -409,7 +409,6 @@ if(tab[nbclick.value] == id){
  nbclick.value++;
 
 }else{
-alert("lose");
 document.location ="./index.html";
 
 }

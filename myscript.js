@@ -8,19 +8,24 @@ return niveau.value++;
 }
 
 //fonction pour génére la sequence de touche aléoire //
+
 function random(niv){
+
 //tableau de couleur de font a apliqué sur les buttons
+
 var couleur =['blue','red','green','orange','yellow','purple','pink'];
 
 //nombre du niveau pour le diffulté	
 
 //stockage de la sequence proposé par le jeu	
+
 var tabordi = [];
 
 //stockage des couleur
 var tabcouleur = [];
 
 //stockage des nombres génére alétoirement
+
 var nbrandom = null;
 
 

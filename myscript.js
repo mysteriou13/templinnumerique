@@ -127,7 +127,7 @@ setTimeout(function(){clean(a[3]);}, 4000);
 }
 
 
-if(niv == 3){
+if(niv == 4){
 
 setTimeout(function(){affichage(a[0]);}, 1);
 
